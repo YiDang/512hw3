@@ -1,0 +1,56 @@
+#include "mainwindow.h"
+#include <QApplication>
+#include "sse.h"
+#include "dataloader.h"
+#include "experi.h"
+#include <iostream>
+#include <fstream>
+int main(int argc, char *argv[])
+{
+//    QApplication a(argc, argv);
+//    MainWindow w;
+//    w.show();
+
+//    return a.exec();
+//
+  //   sse *s=new sse(0);
+  //  s->filter("RRDD","NNHH",0,1);
+  //  s->printP();
+//   node n=s->findmlPos();
+
+  //      obj->mle("RRDD","NNHH",0,4);
+//       obj->findmle(4);
+  //     obj->printP();
+
+
+   // dataloader *dl = new dataloader();
+    //dl->loader("map8_8.txt","a.out");
+
+   experi ex;
+   ex.find10("C:/Users/Yi Dang/Desktop/556/map/map1/map1.txt","C:/Users/Yi Dang/Desktop/556/map/map1/GTD1_1");
+   //ex.truecellp100();
+ //  ex.heatmap("C:/Users/Yi Dang/Desktop/556/map/map1/map1.txt","C:/Users/Yi Dang/Desktop/556/map/map1/GTD1_9");
+//   ex.test100();
+    //ex.testmle("C:/Users/Yi Dang/Desktop/556/map/map1/map1.txt","C:/Users/Yi Dang/Desktop/556/map/map1/GTD1_9");
+   // C:/Users/Yi Dang/Desktop/556/map/map1/map1.txt
+            //GTD1_9
+  // ex.testfilter();
+//sse *obj = new sse(0);
+//    obj->filter("RRDD","NNHH",0,4);
+ //      obj->printP();
+      // obj->findmlPos();
+//obj->mle("RRDD","NNHH",0,4);
+//obj->findmle(1);
+// std::cout<<obj->map[0][0].parents.size();
+
+/*std::ofstream fi;
+   fi.open("C:/Users/Yi Dang/Desktop/556/map/filterRes.txt");
+   fi<<123<<" ";
+   fi.close();
+*/
+
+
+    return 0;
+}
+
+
